@@ -7,6 +7,7 @@ var reduce = function(nums, fn, init) {
   };
 
 // my understand
+
 let nums = [1, 2, 3, 4];
 let sum = reduce(nums, (accumulator, currentValue) => accumulator + currentValue, 0);
 
