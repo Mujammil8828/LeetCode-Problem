@@ -1,10 +1,10 @@
-var reduce = function (nums, fn, init) {
-    let val = init;
+var reduce = function(nums, fn, init) {
+    let total = init;
     for (let i = 0; i < nums.length; i++) {
-        val = fn(val, nums[i]);
+      total = fn(total, nums[i]);
     }
-    return val;
-};
+    return total;
+  };
 
 // my understand
 let nums = [1, 2, 3, 4];
