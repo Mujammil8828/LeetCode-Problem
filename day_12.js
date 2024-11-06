@@ -8,7 +8,7 @@ var addTwoPromises = async function(promise1, promise2) {
 
 
   // My understand
-  
+
   // Do promises define karte hain
 const promise1 = Promise.resolve(5);
 const promise2 = Promise.resolve(10);
@@ -16,3 +16,4 @@ const promise2 = Promise.resolve(10);
 addTwoPromises(promise1, promise2).then(result => {
   console.log(result); // Output: 15
 });
+  
