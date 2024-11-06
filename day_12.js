@@ -7,8 +7,8 @@ var addTwoPromises = async function(promise1, promise2) {
   };
 
 
-  // My understand
-
+  // My understand\
+  
   // Do promises define karte hain
 const promise1 = Promise.resolve(5);
 const promise2 = Promise.resolve(10);
